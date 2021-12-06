@@ -1,0 +1,935 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Home Page */
+
+.index-cont
+{
+  background-color: #243949;
+  background-image: linear-gradient(315deg, #243949 0%, #517fa4 74%);
+  width: 100%;
+  height: 100%;
+}
+
+.index-cont .logo
+{ width: 80rem;
+  height: 45rem;
+  position: absolute;
+  top: 1rem;
+  left: 5rem ;
+}
+
+.index-cont .title
+{
+  width: 80rem;
+  height: 45rem;
+  position: absolute;
+  top: 1rem;
+  left: 5rem ;
+
+}
+
+.index-cont .dot1
+{
+  width: 80rem;
+  height: 45rem;
+  position: absolute;
+  top: 1rem;
+  left: 5rem ;
+
+}
+
+.index-cont .dot2
+{
+  width: 80rem;
+  height: 45rem;
+  position: absolute;
+  top: 1rem;
+  left: 7rem ;
+
+}
+
+.index-cont .login
+{
+  position: absolute;
+  top: 30rem;
+  left: 16rem ;
+  background-color: white;
+  border: none;
+  width: 10rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 2rem;
+  color: #426696;
+  font-weight: 500;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.index-cont .login1
+{
+  position: absolute;
+  top: 30rem;
+  left: 16rem ;
+  background-image: linear-gradient(315deg, #243949 0%, #517fa4 74%);
+  width: 10rem;
+  height: 2.5rem;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.index-cont .signup
+{
+  position: absolute;
+  top: 30rem;
+  left: 27rem ;
+  background-color: white;
+  border: none;
+  width: 10rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  text-align: center;
+  color: #426696;
+  font-weight: 500;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.index-cont .signup1
+{
+  position: absolute;
+  top: 30rem;
+  left: 27rem ;
+  background-image: linear-gradient(315deg, #243949 0%, #517fa4 74%);
+  width: 10rem;
+  padding: 0.5rem;
+  height: 2.5rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.index-cont .homeglass
+{
+  background: white;
+  min-height: 80vh;
+  max-height: 80vh;
+  width: 40%;
+  position: absolute;
+  top:10%;
+  right:10%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  backdrop-filter: blur(2 rem);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+
+/* End of Homepage */
+
+/* Glass Window */
+
+h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+h3 {
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+h2 {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+p {
+  color: #658ec6;
+  font-weight: 400;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+main {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(315deg, #243949 0%, #517fa4 74%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  max-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  backdrop-filter: blur(2 rem);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.dashboard {
+  min-height: 80vh;
+  max-height: 80vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+}
+
+.user img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.link {
+  display: flex;
+  padding: 1rem 0.5rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.link::before {
+  content: "";
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 2rem;
+  top: 0%;
+  left: 0%;
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.link-clicked {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  top: 0%;
+  left: 0%;
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #243949 0%, #517fa4 74%);
+  opacity: 1;
+  color: black;
+}
+
+.clicked-h2 {
+  color: black;
+  font-weight: 500;
+}
+
+/* .link:hover::before
+{
+    opacity: 1;
+    visibility: visible;
+} */
+
+.link:hover h2 {
+  color: #000000;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.link h2 {
+  padding: 0rem 0.5rem;
+  padding: 0rem 0.5rem;
+  width: 120%;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+}
+
+.link img {
+  width: 40px;
+  height: 40px;
+}
+
+.link .link-info {
+  display: flex;
+}
+.events {
+  flex: 2;
+}
+
+.pro {
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pro img {
+  width: 40px;
+  height: 40px;
+}
+
+.pro h2 {
+  width: 40%;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.links {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+/* Events */
+.status {
+  margin: 2rem auto 0;
+}
+
+.status input {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border: none;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+
+.events {
+  height: 80vh;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  padding: 0.5rem 0rem;
+  z-index: 1;
+  position: relative;
+  transition: all 1s;
+}
+
+.card::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #243949 0%, #517fa4 74%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.events .cards .card:hover::before {
+  opacity: 1;
+  visibility: visible;
+  
+}
+
+.cards {
+  margin-top: 2rem;
+  height: 60vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-bottom: 3rem;
+  transition: all 0.5s;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.card img {
+  width: 120px;
+  height: 140px;
+  border-radius: 10%;
+  padding: 0.1rem;
+}
+
+.card h4 {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  width: 40%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  font-size: 0.7rem;
+}
+
+.events .cards .card:hover .card-info,
+.events .cards .card:hover h2,
+.events .cards .card:hover p {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Events */
+
+/* Settings */
+
+.settings {
+  flex: 2;
+  height: 80vh;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0rem;
+}
+
+.row input {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border: none;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+
+.settings button {
+  margin: 0 auto 1rem;
+  display: block;
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #243949 0%, #517fa4 74%);
+  border: none;
+  width: 40%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.settings .changes {
+  height: 15rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-bottom: 3rem;
+}
+
+#changeDP {
+  display: block;
+}
+
+.Dpform input {
+  margin-left: 9rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1.3rem;
+}
+
+/* Login Form */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.log-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  align-items: center;
+}
+
+.log-item i {
+  font-size: 10rem;
+  color: #426696;
+}
+
+.log-item input {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border: none;
+  width: 60%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+
+.login-form button {
+  display: block;
+  background-image: linear-gradient(315deg, #243949 0%, #517fa4 74%);
+  border: none;
+  width: 40%;
+  margin: auto;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* End of login form */
+
+/* End of glass window */
+
+/* Interests */
+
+.interests-container {
+  height: 38vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.interests-container h2 {
+  color: #426696;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.radio-buttons {
+  text-align: center;
+  width: 110%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.custom-radio input {
+  display: none;
+}
+
+.radio-btn {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  width: 25%;
+  height: 8rem;
+  margin: 1rem;
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 0 20px #c3c3c367;
+  cursor: pointer;
+}
+
+.radio-btn > i {
+  color: #ffffff;
+  background-color: #426696;
+  font-size: 20px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%) scale(4);
+  border-radius: 50%;
+  padding: 3px;
+  transition: 0.2s;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.radio-btn .interests-icon {
+  margin-top: 3.25rem;
+  width: 60%;
+  height: 75px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.radio-btn .interests-icon i {
+  color: #658ec6;
+  line-height: 50px;
+  font-size: 60px;
+}
+
+.radio-btn .interests-icon h3 {
+  color: #658ec6;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.custom-radio input:checked + .radio-btn {
+  border: 3px solid #426696;
+}
+
+.custom-radio input:checked + .radio-btn > i {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+
+/* Admin */
+/* Add Event */
+
+.row .select {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border: none;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+/* End of add event */
+
+/* Accept request */
+
+.card-info .cardadd {
+  width: 30%;
+  border-radius: 2rem;
+  position: absolute;
+  bottom: -1.6rem;
+  right: 1.5rem;
+  background-color: #ffa69e;
+  background-image: linear-gradient(315deg, #243949 0%, #517fa4 74%);
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.8;
+}
+
+.card-info .cardadd:hover {
+  color: white;
+  font-weight: 800;
+  opacity: 1;
+}
+
+.card-info {
+  position: relative;
+}
+
+.requests {
+  height: 80vh;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 2;
+}
+
+.requests .cards .card {
+  height: 16rem;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+
+/* Event description */
+
+.eventContainer {
+  position: relative;
+}
+
+.events .eventContainer .upperContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upperContainer button {
+  width: 10rem;
+  height: 3rem;
+  position: absolute;
+  top: 10%;
+  right: 4%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border: none;
+  border-radius: 2rem;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.upperContainer button:hover {
+  opacity: 0.8;
+  background-color: white;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.event-info h1 {
+  margin: -0.8rem -0.2rem;
+  color: white;
+}
+
+.eventContainer .lowerContainer {
+  margin-top: 0.5rem;
+  display: flex;
+}
+.eventContainer .lowerContainer p {
+  margin-right: 0.5rem;
+  color: #ffffff;
+}
+.eventContainer {
+  background-image: linear-gradient(315deg, #243949 0%, #517fa4 74%);
+
+  width: 90%;
+  margin: auto;
+  margin-top: 1.5rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  height: 16rem;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.eventContainer p,
+.eventContainer h2 {
+  color: white;
+}
+.recomContainer {
+  width: 90%;
+  border-radius: 0.5rem;
+  margin: auto;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.recomContainer h2 {
+  /* margin: 1rem auto; */
+  color: #243949;
+  text-align: center;
+}
+
+.eventglass {
+  background: white;
+  min-height: 80vh;
+  max-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  backdrop-filter: blur(2 rem);
+  align-items: center;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper .carousel {
+  max-width: 700px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.carousel .card {
+  line-height: 150px;
+  border-radius: 20%;
+  margin: 8px auto;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  padding: 0;
+}
+
+.carousel .card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.carousel img {
+  width: 100px;
+  height: 160px;
+  margin: 0;
+  padding: 0;
+}
+
+.owl-dot {
+  height: 10px;
+  width: 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  border: 2px solid #517fa4 !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot:hover,
+.owl-dot.active {
+  background: linear-gradient(315deg, #243949 0%, #517fa4 74%) !important;
+}
+.owl-dots {
+  text-align: center;
+}
+
+.backbut {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 3rem;
+  color: #243949;;
+}
+
+.backbut:hover {
+  font-weight: 800;
+  color: white;
+  transition: all 0.5s ;
+}
+
+/* Logout Button */
+.button {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.4s ease-out;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.button:hover {
+  width: 200px;
+}
+
+.button:hover img {
+  filter: grayscale(0%);
+  transition: all 0.5s ease;
+}
+.button img {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  filter: grayscale(100%);
+}
+
+a {
+  text-decoration: none;
+}
+
+.button span {
+  font-size: 20px;
+  font-weight: 500px;
+  color: black;
+  line-height: 60px;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
